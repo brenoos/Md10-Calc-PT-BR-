@@ -12,7 +12,7 @@ int MMR;
 void Elo (void)
 {
    setlocale (LC_ALL, "portuguese");
-   cout << "\nDigite o Valor do seu MMR atual";
+   cout << "\nDigite o Valor do seu MMR atual ";
    cin >> lks;
    MMR = ((lks + 1200)/2) + (45 * Wins) - (50 * Defeats);
 
